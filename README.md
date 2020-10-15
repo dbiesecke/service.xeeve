@@ -10,18 +10,8 @@ Libreelec Package for [xteve](https://github.com/xteve-project/xTeVe)
 
 ## embedded addons
 
-* Best way: Add Packages to `distributions/LibreELEC/options`
- 
-----
+1. Best way: Add Packages to `distributions/LibreELEC/options`
 
-# additional packages to install:
-# Space separated list is supported,
-# e.g. ADDITIONAL_PACKAGES="PACKAGE1 PACKAGE2"
-  ADDITIONAL_PACKAGES=""
-
--------------
-
-
-* Open file `packages/addons/browser/chrome/package.mk` and change  `PKG_IS_ADDON="yes"` to `PKG_IS_ADDON="embedded"`
+2. Open file `packages/addons/browser/chrome/package.mk` and change  `PKG_IS_ADDON="yes"` to `PKG_IS_ADDON="embedded"`
 
 
